@@ -12,3 +12,11 @@ initContainers:
 
 job:
   enabled: false
+
+resources:
+  requests:
+    memory: "500Mi"
+    cpu: "250m"
+  limits:
+    memory: "750Mi"
+    cpu: "350m"
